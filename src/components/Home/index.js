@@ -196,6 +196,7 @@ export default function Home() {
           ))}
         </ul>
       </table>
+      <Pagination/>
       <div>
         <button
           className="prev-page"
