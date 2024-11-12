@@ -44,8 +44,8 @@ placeholder {
   border: none;
   padding: 10px;
   margin: 10px 10px;
-  position: fixed;
-  left: 10px;
+  position: absolute;
+  left: 0px;
   cursor: pointer;
 }
 .select-head {

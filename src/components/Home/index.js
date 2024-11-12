@@ -100,7 +100,7 @@ export default function Home() {
       item.role.toLowerCase().includes(searchInput.toLowerCase());
     return matchedSearch;
   });
-
+  
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = filteredSearch.slice(indexOfFirstItem, indexOfLastItem);
@@ -196,7 +196,6 @@ export default function Home() {
           ))}
         </ul>
       </table>
-      <Pagination/>
       <div>
         <button
           className="prev-page"
